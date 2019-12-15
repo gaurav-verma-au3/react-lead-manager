@@ -38,7 +38,7 @@ export class Counter extends Component {
                 width: p
               }}
             >
-              <h6 className="p-1">{cLength}</h6>
+              <h6 className="px-5">{cLength}</h6>
             </div>
             <div
               className="progress-bar bg-danger"
@@ -47,7 +47,7 @@ export class Counter extends Component {
                 width: d
               }}
             >
-              <h6 className="p-1">{lLength - cLength}</h6>
+              <h6 className="px-5">{lLength - cLength}</h6>
             </div>
           </div>
         </div>
